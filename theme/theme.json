@@ -1,0 +1,40 @@
+{
+  "name": "Shorthand Base Theme",
+  "description": "Basic theme with a combination of light and dark sections.",
+  "thumbnail": "/assets/thumb.png",
+  "organisations": [
+    "public"
+  ],
+  "logos": [
+    {
+      "bigFile": "/assets/logo.png",
+      "smallFile": "/assets/logo.png",
+      "href": "https://shorthand.com/",
+      "alt": "Shorthand",
+      "target": "_blank",
+      "nofollow": true
+    }
+  ],
+  "headIncludes": {
+    "link": [
+      {
+        "rel": "icon",
+        "type": "image/png",
+        "href": "./assets/favicon.png"
+      },
+      {
+        "rel": "stylesheet",
+        "type": "text/css",
+        "href": "https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|PT+Serif:400,400i,700,700i"
+      }
+    ]
+  },
+  "sectionVariantDefaults": {
+    "Text": "Light",
+    "BackgroundScrollmation": "Dark",
+    "TwoColumnScrollmation": "Light",
+    "Media": "Light"
+  },
+  "snippets": [],
+  "_sourceHash": "a0d2a7da4068579cef0291e1810b8187"
+}
